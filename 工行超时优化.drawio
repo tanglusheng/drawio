@@ -332,7 +332,7 @@
         <mxCell id="_dvGhlKeTHRUBDHCaTWj-101" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_dvGhlKeTHRUBDHCaTWj-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="_dvGhlKeTHRUBDHCaTWj-100" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_dvGhlKeTHRUBDHCaTWj-98" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;rounded=0;" value="需人工接入" vertex="1">
+        <mxCell id="_dvGhlKeTHRUBDHCaTWj-98" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="需人工接入" vertex="1">
           <mxGeometry height="60" width="120" x="1090" y="1330" as="geometry" />
         </mxCell>
         <mxCell id="_dvGhlKeTHRUBDHCaTWj-100" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;spacing=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="结束" vertex="1">
@@ -371,7 +371,10 @@
         <mxCell id="8xhWTMFhlxQBbJqS5-6R-9" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;spacing=1;" value="结束" vertex="1">
           <mxGeometry height="60" width="100" x="880" y="1300" as="geometry" />
         </mxCell>
-        <mxCell id="8xhWTMFhlxQBbJqS5-6R-15" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="需人工接入" vertex="1">
+        <mxCell id="6tSxPgrPxVw5XvhNnqxs-9" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="8xhWTMFhlxQBbJqS5-6R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="6tSxPgrPxVw5XvhNnqxs-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8xhWTMFhlxQBbJqS5-6R-15" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;fillColor=#60a917;" value="需人工接入" vertex="1">
           <mxGeometry height="60" width="120" x="1860" y="820" as="geometry" />
         </mxCell>
         <mxCell id="8xhWTMFhlxQBbJqS5-6R-17" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;strokeWidth=1;spacing=1;rounded=0;" value="异常则保存异常数据" vertex="1">
@@ -399,8 +402,14 @@
         <mxCell id="6tSxPgrPxVw5XvhNnqxs-0" parent="WIyWlLk6GJQsqaUBKTNV-1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;spacing=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="支付状态=01?" vertex="1">
           <mxGeometry height="80" width="80" x="1680" y="810" as="geometry" />
         </mxCell>
+        <mxCell id="6tSxPgrPxVw5XvhNnqxs-10" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6tSxPgrPxVw5XvhNnqxs-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" target="6tSxPgrPxVw5XvhNnqxs-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6tSxPgrPxVw5XvhNnqxs-3" parent="WIyWlLk6GJQsqaUBKTNV-1" style="whiteSpace=wrap;html=1;strokeWidth=1;spacing=1;rounded=0;" value="支付中等待下次回调" vertex="1">
           <mxGeometry height="60" width="120" x="1660" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="6tSxPgrPxVw5XvhNnqxs-8" parent="WIyWlLk6GJQsqaUBKTNV-1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;spacing=1;rounded=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" value="结束" vertex="1">
+          <mxGeometry height="60" width="100" x="1870" y="980" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
